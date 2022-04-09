@@ -1,0 +1,18 @@
+//c program for given 10%discount
+#include<stdio.h>
+int main()
+{
+int price;
+int amount;
+int discount;
+    printf("enter price:");
+    scanf("%1f,&price");
+ amount=price;
+if(amount>5000);
+ {
+   discount=amount*0.05;
+    amount=amount-discount;
+  }
+    printf("%f",amount);
+    return 0;
+}
